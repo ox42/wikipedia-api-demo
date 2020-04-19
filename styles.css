@@ -56,3 +56,48 @@ form .button.button-primary {
     background-color: black;
     width: 100%;
 }
+
+/* Basic TOC styling */
+div.toc-container {
+    margin-top: 50px;
+}
+
+div.toc-container.direction-rtl {
+    direction: rtl;
+}
+
+div.toc-container p.alert {
+    text-align: center;
+}
+
+div.toc-container p.alert.alert-error {
+    color: red;
+}
+
+/* TOC list styling */
+div.toc-container ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+div.toc-container ul li {
+    margin: 5px 0;
+}
+
+div.toc-container ul.toc-list {
+    padding-left: 0;
+}
+
+div.toc-container ul.toc-list li a {
+    text-decoration: none;
+}
+
+div.toc-container ul.toc-list span.number {
+    color: black;
+    padding-right: 15px;
+}
+
+div.toc-container.direction-rtl ul.toc-list span.number {
+    padding-right: 0;
+    padding-left: 15px;
+}
