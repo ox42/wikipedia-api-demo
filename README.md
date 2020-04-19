@@ -3,6 +3,10 @@ A simple application that uses Wikipedia's API. To get started,
 simply clone this repository and open the index.html file in 
 any modern browser.
 
+## Video
+You can view a video demonstration of how the app works by opening
+the wikipedia-api-demo.mp4 video file.
+
 ## License
 
 [The MIT License](http://opensource.org/licenses/MIT) 
