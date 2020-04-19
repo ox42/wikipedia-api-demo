@@ -1,0 +1,58 @@
+/* basic page styling */
+div.main-container {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 17px;
+    padding: 30px 20px;
+}
+
+/* basic form styling */
+.form-group {
+    margin: 20px 0;
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-group label {
+    width: 40%;
+}
+
+.form-group input,
+.form-group select {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+
+    padding: 10px 15px;
+    width: 60%;
+}
+
+@media screen and (max-width: 576px) {
+    .form-group {
+        flex-direction: column;
+    }
+
+    .form-group label,
+    .form-group input,
+    .form-group select {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+        margin-bottom: 5px;
+        width: 100%;
+    }
+}
+
+form .button.button-primary {
+    text-align: center;
+    padding: 20px 10px;
+    border: 0;
+    color: white;
+
+    background-color: black;
+    width: 100%;
+}
